@@ -1,0 +1,139 @@
+body{
+  margin: 0;
+  text-align: center; /*This method of centering works only for 'full length blocks' */
+  font-family: 'Merriweather',serif;
+}
+
+p{
+  line-height: 2;
+}
+
+h1{
+  font-size: 5.625rem; /* 100% is 16px for blocks(angela had a full block), so to get 90px, we do 90/16 = 562.5% i.e. 5.625rem */
+  width: 100%;
+  margin: 50px auto 0 auto; /*This allows you to bring 'not a full length block' to center,....You can also just type out margin: 0 auto; */
+  font-family: 'Sacramento',cursive;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2{
+  font-size: 2.5rem; /* for 40px, 40/16 = 2.5rem */
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+/*below is the pseudo class*/
+a:hover{
+  color: #EAF6F6;
+}
+.top-container{
+  background-color:   #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+  margin: 100px 0;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding:50px 0 20px;
+}
+.pro{
+  text-decoration: underline;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px; /*right margin of 300px relative to the parent i.e. the top-container */
+  top: 40px; /*top margin of 50px relative to the parent i.e. the top-container */
+}
+.bottom-cloud{
+  position: absolute;
+  left: 250px;/*left margin of 300px relative to the parent i.e. the top-container */
+  bottom: 300px;/*bottom margin of 300px relative to the parent i.e. the top-container */
+}
+.bio{
+  color: #40514E;
+  width:30%;
+  margin:auto;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-image-one{
+  width: 25%; /*the width will become 25% of its parent i.e. skill-row */
+  float: left;
+  margin-right: 30px;
+}
+.skill-image-two{
+  width: 25%; /*the width will become 25% of its parent i.e. skill-row */
+  float: right;
+  margin-left: 30px;
+}
+/*
+.code-skill-description{
+  clear: left;
+}
+comment out and observe
+*/
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copy-right{
+  color:#EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+
+/* Button Code (Contact Me) */
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
